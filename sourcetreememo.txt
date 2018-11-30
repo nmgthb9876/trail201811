@@ -1,0 +1,20 @@
+git commit --amend（コミットやりなおし）
+右クック　現在のブランチをここあまでリセット
+
+• git reset --hard（強制的にワーキングスペースを対象のリビジョンに書き換え）
+
+←打消しのこと？
+
+
+• git pull --rebase（fetch & mergeではなくて、fetch & rebaseでリモートの情報をもってくる）
+←プル・リベースを選択
+ ブランチを一本としたい
+
+
+git reset --soft,
+git reset --mixed
+git merge --no-ff　　fast-forwardでマージ
+
+
+
+
