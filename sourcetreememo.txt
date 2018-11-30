@@ -1,9 +1,8 @@
 git commit --amend（コミットやりなおし）
-右クック　現在のブランチをここあまでリセット
+メッセージ
 
 • git reset --hard（強制的にワーキングスペースを対象のリビジョンに書き換え）
-
-←打消しのこと？
+右クック　現在のブランチをここまでリセット　すべての作業コピーを破棄する
 
 
 • git pull --rebase（fetch & mergeではなくて、fetch & rebaseでリモートの情報をもってくる）
@@ -11,9 +10,13 @@ git commit --amend（コミットやりなおし）
  ブランチを一本としたい
 
 
-git reset --soft,
-git reset --mixed
-git merge --no-ff　　fast-forwardでマージ
+git reset --soft　　　「HEADの位置」のみ　
+git reset --mixed　　（or オプション無し）：「HEADの位置・インデックス」
+右クック　現在のブランチをここあまでリセットで選択できる
+
+
+
+git merge --no-ff　　　fast-forwardでマージ
 
 
 
